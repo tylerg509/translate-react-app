@@ -15,7 +15,6 @@ class Button extends React.Component {
                 </LanguageContext.Consumer>
             </button>
         )
-
     }
 
     render() {
@@ -23,9 +22,6 @@ class Button extends React.Component {
             <ColorContext.Consumer>
                  {color => this.renderButton(color)}
             </ColorContext.Consumer>
-
-
-
         )
     }
 }
